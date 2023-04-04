@@ -1,0 +1,59 @@
+.app-header {
+    height: 65px;
+    background: white;
+    box-shadow: 0px 5px 5px rgb(208, 203, 203);
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.app-logo {
+    font-weight: 900;
+}
+
+.header-width {
+    width: 78%;
+}
+
+@media screen and (max-width: 992px) {
+    .header-width {
+        width: 100% !important;
+        margin: 0 5%;
+    }
+}
+
+.lg-list {
+    display: flex;
+}
+
+.menu-btn {
+    display: none;
+    font-weight: 500;
+    border-color: #5D8B2F !important;
+}
+
+@media screen and (max-width: 840px) {
+    .lg-list {
+        display: none !important;
+    }
+
+    .menu-btn {
+        display: unset;
+    }
+}
+
+.login-btn {
+    color: #000000;
+    font-weight: 500;
+}
+
+.register-btn {
+    background-color: #5D8B2F;
+    font-weight: 500;
+    color: white;
+}
+
+.main-heading {
+    font-size: 30px;
+    font-weight: 500;
+}

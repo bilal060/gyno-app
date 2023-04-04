@@ -1,0 +1,34 @@
+.home-section {
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+}
+
+.main-heading {
+    font-family: 'Maragsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.main-heading span {
+    color: #5D8B2F;
+}
+
+.green-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    background: #5D8B2F;
+    border-radius: 8px;
+    padding: 19px 34px;
+}
+
+.green-btn:hover {
+    background: #457813;
+    color: #FFFFFF;
+}

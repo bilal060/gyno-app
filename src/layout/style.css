@@ -1,0 +1,50 @@
+.menu-sidebar {
+    position: absolute;
+    right: -100%;
+    top: 65px;
+    z-index: 999;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+
+.menu-list-sidebar {
+    width: 200px;
+    height: 100%;
+    box-shadow: 0px 5px 5px rgb(208, 206, 206);
+    background: white;
+}
+
+.menu-list-right-sidebar {
+    width: calc(100% - 200px);
+    backdrop-filter: blur(2px);
+}
+
+.sidebar-list {
+    height: 40px;
+    padding: 10px 0px;
+}
+
+.menu-sidebar-active {
+    right: 0 !important;
+}
+
+.active {
+    color: #5D8B2F !important;
+    font-weight: 500;
+    position: relative;
+}
+
+.active::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 5px;
+    width: 55%;
+    background-color: #5D8B2F;
+    content: "";
+}
+
+.header-list,
+.sidebar-list {
+    list-style-type: none;
+}
