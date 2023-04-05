@@ -1,5 +1,5 @@
 .menu-sidebar {
-    position: absolute;
+    position: fixed;
     right: -100%;
     top: 65px;
     z-index: 999;

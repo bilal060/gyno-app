@@ -18,7 +18,7 @@ function CauseOfDeath() {
                         </ul>
                         <button className='btn green-btn mt-3'>Learn More</button>
                     </div>
-                    <div className='col-lg-6 p-5 pt-0'>
+                    <div className='col-lg-6 d-lg-block d-none d p-5 pt-0'>
                         <img src={CauseImg} className='w-100 m-5 mt-0' alt='' />
                     </div>
                 </div>

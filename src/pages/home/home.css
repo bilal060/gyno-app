@@ -17,6 +17,7 @@
     color: #5D8B2F;
 }
 
+
 .green-btn {
     font-style: normal;
     font-weight: 500;
@@ -31,4 +32,32 @@
 .green-btn:hover {
     background: #457813;
     color: #FFFFFF;
+}
+
+
+@media screen and (min-width:850px) {
+    .main-heading {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:451px) {
+    .main-heading {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .main-heading {
+        font-size: 35px !important;
+    }
+
+    .normal-text {
+        font-size: 18px;
+    }
+
+    .green-btn {
+        font-size: 15px;
+        padding: 15px 25px;
+    }
 }

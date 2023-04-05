@@ -16,11 +16,11 @@ function KeyEvent() {
     return (
         <div className='key-event-section'>
             <div className='container'>
-                <div className='row w-100'>
-                    <div className='col-lg-6 pe-5'>
-                        <img src={Keying} className='w-100 me-5' alt='' />
+                <div className='row w-100 justify-content-center m-0'>
+                    <div className='col-lg-6 col-9 pe-lg-5'>
+                        <img src={Keying} className='w-100 me-lg-5' alt='' />
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 pt-lg-0 pt-4'>
                         <h2 className='heading2 text-capitalize'>key events <span>in Irish history </span></h2>
                         <p className='text-18'>An island people the Irish may be, yet the history of Ireland has never been insular or inward-looking. Instead, it is a story of a people profoundly aware of the wider world – its threats, its possibilities and its advantages.</p>
                         <ul>

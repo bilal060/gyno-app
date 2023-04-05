@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 code {
@@ -80,4 +82,7 @@ a {
   outline: 0;
   padding: 16px;
   margin-bottom: 32px;
+}
+.curved-slider{
+    background: radial-gradient(110% 50% at bottom, transparent 50%, lightblue 51%);
 }

@@ -13,14 +13,14 @@ function DiscoverySection() {
                     will do.
                 </p>
             </div>
-            <div className='container'>
-                <div className='row w-100'>
-                    <div className='col-lg-4'>
+            <div className='container mt-5'>
+                <div className='row w-100 justify-content-center gap-lg-0 gap-3 pt-lg-4'>
+                    <div className='col-lg-4 col-7'>
                         <img src={DiscoryImg} className='w-100' alt='' />
                     </div>
 
-                    <div className='col-lg-8 ps-5'>
-                        <div className='ps-5'>
+                    <div className='col-lg-8 ps-lg-5 pe-0'>
+                        <div className='ps-lg-5'>
                             <DiscoveryForm />
                         </div>
                     </div>

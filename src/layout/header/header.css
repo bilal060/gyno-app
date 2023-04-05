@@ -5,6 +5,7 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
+    z-index: 999;
 }
 
 .app-logo {
@@ -51,9 +52,4 @@
     background-color: #5D8B2F;
     font-weight: 500;
     color: white;
-}
-
-.main-heading {
-    font-size: 30px;
-    font-weight: 500;
 }
