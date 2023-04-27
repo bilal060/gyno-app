@@ -6,6 +6,7 @@ import KeyEvent from "../../component/HomePage/KeyEvent";
 import "./home.css";
 import SimpleSlider from "../../component/HomePage/slider";
 import Tablefilter from "../../component/Table";
+import Model from "../../component/Model/Model";
 
 function AppHome() {
   return (
@@ -15,8 +16,8 @@ function AppHome() {
           Bringing your Family Past <span>To The Present</span>
         </h1>
         <p className="normal-text text-center mt-3 pt-2">
-          Bring to life your family's history by exploring the lives of those that
-          came before you.
+          Bring to life your family's history by exploring the lives of those
+          that came before you.
         </p>
         <div className="d-flex justify-content-center mt-5">
           <button className="btn green-btn">View Your Family Tree</button>
@@ -24,14 +25,13 @@ function AppHome() {
       </div>
       <SimpleSlider />
       <DiscoverySection />
+      <Model />
       <div className="mt-5">
         <Tablefilter />
       </div>
       <CauseOfDeath />
       <KeyEvent />
       <CommonCauseOfDeath />
-
-
     </div>
   );
 }

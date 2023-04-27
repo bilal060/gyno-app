@@ -1,0 +1,40 @@
+.form-input{
+    height: 56px;
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        color: #B5B5B5;
+        border: 0;
+        outline: 0;
+        padding: 16px;
+        margin-bottom: 32px;
+
+}
+.discovey-form {
+    background: #F8F8F8;
+    border: 1px solid #000000;
+    border-radius: 16px !important;
+    padding: 15px !important;
+    -webkit-border-radius: 16px !important;
+    -moz-border-radius: 16px !important;
+    -ms-border-radius: 16px !important;
+    -o-border-radius: 16px !important;
+    margin: 3px !important;
+}
+.form-input {
+    height: 45px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #B5B5B5;
+    border: 0;
+    outline: 0;
+    padding: 13px;
+    margin-bottom: 10px;
+}
