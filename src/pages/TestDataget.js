@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CallAPI from "./CallApi";
+import callAPI from "./CallApi";
 
 function TestDataget() {
   const [data, setData] = useState({});
@@ -7,7 +7,7 @@ function TestDataget() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await CallAPI("api/v1/gyno");
+        const result = await callAPI("gyno"); // Pass the endpoint as an argument to callAPI
         if (result.data.length > 0) {
           setData(result.data[0]); // Set the data state to the first item in the array
         }

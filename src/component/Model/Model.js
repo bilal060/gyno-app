@@ -49,7 +49,7 @@ const Model = () => {
                     <label className="form-label">Enter Surname</label>
                     <input
                       type="text"
-                      className="form-input"
+                      className="form-input"                                                               
                       placeholder="Enter Surname"
                       name="Surname"
                     />
