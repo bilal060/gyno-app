@@ -25,7 +25,9 @@ function AppHome() {
       </div>
       <SimpleSlider />
       <DiscoverySection />
-      <Model />
+      <div className="d-flex justify-content-center">
+        <Model />
+      </div>
       <div className="mt-5">
         <Tablefilter />
       </div>

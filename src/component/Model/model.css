@@ -1,4 +1,4 @@
-.form-input{
+.model .form-input{
     height: 56px;
         width: 100%;
         background: #FFFFFF;
@@ -13,7 +13,7 @@
         margin-bottom: 32px;
 
 }
-.discovey-form {
+.model .discovey-form {
     background: #F8F8F8;
     border: 1px solid #000000;
     border-radius: 16px !important;
@@ -24,7 +24,7 @@
     -o-border-radius: 16px !important;
     margin: 3px !important;
 }
-.form-input {
+.model .form-input {
     height: 45px;
     width: 100%;
     background: #FFFFFF;
@@ -37,4 +37,23 @@
     outline: 0;
     padding: 13px;
     margin-bottom: 10px;
+}
+.model .btn-model{
+        background-color: #5D8B2F;
+        font-weight: 500;
+        color: white;
+}
+.model p{
+        text-align: center;
+        background-color: #5D8B2F;
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        width: 95%;
+        margin: 12px auto;
+        border-radius: 8px;
+        border: 1px solid black;
+        padding: 5px 0px;
 }

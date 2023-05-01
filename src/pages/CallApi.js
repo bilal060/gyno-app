@@ -11,4 +11,15 @@ const callAPI = async (endpoint) => {
   }
 };
 
+const callADDAPI = async (endpoint, data) => {
+  // update to include data parameter
+  try {
+    return await axios.post(`${url}/${endpoint}`, data); // add data to POST request
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
+
 export default callAPI;
+export { callADDAPI };
