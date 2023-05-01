@@ -11,13 +11,12 @@ const Tablefilter = () => {
       try {
         const result = await callAPI("gyno");
         console.log(result.data.data);
-        // Pass the endpoint as an argument to callAPI
         if (result?.data?.data?.length) {
-          const sortedData = result.data.data.sort((a, b) => b.id - a.id); // Sort the data by id in descending order
-          setData(sortedData); // Set the sorted data to the data state
+          const sortedData = result.data.data.sort((a, b) => b.id - a.id);
+          setData(sortedData);
         }
       } catch (error) {
-        console.log(error); // Log any errors that occur during the API call
+        console.log(error);
       }
     };
     fetchData();
