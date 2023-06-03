@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = process.env.API_URL || "http://localhost:3000/api/v1";
+const url = process.env.API_URL || "http://localhost:5000/api/v1";
 
 const callAPI = async (endpoint) => {
   try {
