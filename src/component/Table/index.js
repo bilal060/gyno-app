@@ -12,7 +12,7 @@ const Tablefilter = () => {
         const result = await callAPI("gyno");
         console.log(result.data.data);
         if (result?.data?.data?.length) {
-          const sortedData = result.data.data.sort((a, b) => b.id - a.id);
+          const sortedData = result.data.data.sort((a, b) => a._id - b._id);
           setData(sortedData);
         }
       } catch (error) {

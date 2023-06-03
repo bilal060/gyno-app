@@ -7,6 +7,8 @@ import "./home.css";
 import SimpleSlider from "../../component/HomePage/slider";
 import Tablefilter from "../../component/Table";
 import Model from "../../component/Model/Model";
+import ContactUsForm from "../../component/HomePage/ContactUs";
+import LogoImg from "../../assets/image/logo.jpg";
 
 function AppHome() {
   return (
@@ -24,16 +26,41 @@ function AppHome() {
         </div>
       </div>
       <SimpleSlider />
-      <DiscoverySection />
+
       <div className="d-flex justify-content-center">
         <Model />
       </div>
-      <div className="mt-5">
+      <div className="mt-5 p-5">
         <Tablefilter />
       </div>
-      <CauseOfDeath />
-      <KeyEvent />
+
+
+        <DiscoverySection />
+
+        <CauseOfDeath />
+
+        <KeyEvent />
       <CommonCauseOfDeath />
+        <div className="mt-5 p-5">
+            <ContactUsForm/>
+        </div>
+      <footer className="container p-4 rounded">
+            <div className="d-lg-flex justify-content-between">
+                <div>
+                    <img src={LogoImg} width={52} />
+                </div>
+                <div className="copyright">
+                    <p>developed and maintained by Past Links</p>
+                </div>
+                <div>
+                    <ul className="d-flex gap-3 list-unstyled">
+                        <li><a href="https://www.facebook.com/pastlinksgenealogyservices"><i style={{fontSize: '40px;'}} className="bi bi-facebook"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
     </div>
   );
 }
